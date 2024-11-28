@@ -1,0 +1,71 @@
+#cal-div {
+  padding: 15px;
+  border-radius: 12%;
+  /* padding: 2px; */
+  width: 300px;
+  height: 450px;
+  border: 20px solid #1b1919;
+  background-color: #1b1919;
+  /* padding-right: 30px; */
+}
+#screen-input {
+  border-radius: 5%;
+  width: 100%;
+  height: 70px;
+}
+.button-div {
+  margin: none;
+  padding: 0;
+  position: absolute;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  /* border: none; */
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #646464;
+  /* margin: 5px; */
+  border-radius: 50%;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s;
+  /* transition: background-color 1s; */
+}
+.button:click {
+  background-color: bisque;
+}
+.button:hover {
+  width: 110%;
+  height: 110%;
+  /* border: 2px solid rgb(0, 255, 13); */
+}
+#button-section {
+  padding: 0;
+  /* margin: none; */
+  margin-top: 20px;
+  /* font-display: flex; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+#button-ac,
+#button-correct,
+#button-percent {
+  background-color: rgb(70, 150, 139);
+}
+#button-divide,
+#button-multy,
+#button-minus,
+#button-plus,
+#button-equal {
+  background-color: rgb(60, 143, 182);
+}
+button {
+  outline: none;
+  border: 2px solid #2f2f2f;
+}
